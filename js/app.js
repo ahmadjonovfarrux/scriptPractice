@@ -299,3 +299,50 @@
 //   return [x, y];
 // }
 // console.log(massiv(31, 34));
+
+// 36.Funksiyaga 2ta argument sifatida string ko’rinishidagi ma’lumotlar beriladi. Agar ushbu ikkala stringdagi belgilar soni bir-birinikiga teng bo’lsa funksiya rost qiymat qaytarsin, aks hold yolg’on.
+// function tengString(str1, str2) {
+//   if (str1.length == str2.length) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(tengString("hello", "sarq"));
+
+// 37.Shunday funksiya yasangki, unga string argument qilib beriladi, agar ushbu string bo’sh bo’lsa funksiya true qaytaradi, aks holda false.
+// function boshStr(str) {
+//   if (str == "") {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(boshStr("hello"));
+
+// 38.Shunday funksiya yasang.Unda butun son argument qilib beriladi. Agar ushbu butun son 5ga bo’linsa, funksiya true qaytarsin, aks holda false.
+// function beshBoluv(son) {
+//   if (son % 5 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(beshBoluv(20));
+
+// 39.Shunday funksiya yasang.Unda butun son argument qilib beriladi. Agar ushbu butun son 100ga bo’linsa, funksiya true qaytarsin, aks holda false.
+// function yuzBoluvchi(son) {
+//   if (son % 100 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(yuzBoluvchi(200));
+
+// 40.Shunday funksiya yasangki, ushbu funksiya stringni ichida nechta belgi borligini aytsin. Bunda length propertisidan foydalanmang va rekursiv funksiya ishlating.
+
+// function stringIndex(index) {
+//   return ;
+// }
+// console.log(stringIndex("hello"));
