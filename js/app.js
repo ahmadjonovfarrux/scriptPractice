@@ -108,10 +108,63 @@
 //   console.log(false);
 // }
 
-
-
 // 54.Funksiya string qabul qiladi. Agar ushbu stringning uzunligi. juft bo’lsa funksiya true qaytarsin, aks holda false
+// function stringCompare(stringArg) {
+//   if (stringArg.length % 2 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(stringCompare("yes"));
 
+// 55.Funksiya 2ta argument qabul qiladi. Ikkala argument ham son, funksiya 1-sonni 2-songa darajaga ko’tarilgan qiymatni qaytarsin.
+// function darajaliSonlar(son1, son2) {
+//   return son1 ** son2;
+// }
+// console.log(darajaliSonlar(3, 3));
+
+// 56.Funksiya massiv qabul qiladi. Ushbu funksiya massivning so’nggi elementini qaytarib bersin.
+// function lastElement(arr) {
+//   return arr.at(-1);
+// }
+// console.log(lastElement([1, 2, 3, 4]));
+
+//  57.Kabisa yilini aniqlaydigan funksiya yasang. Agar kiritilgan yil kabisa bo’lsa funksiya true qaytaradi, aks holda false. Kabisa yili 4ga bo’linadigan yil bo’lib, lekin 100ga bo’linsa u holda 400ga ham bo’linganidagina kabisa hisoblanadi.
+// function kabisaYil(son) {
+//   if (son % 4 == 0 || (son % 100 == 0 && son % 400 == 0)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(kabisaYil(2021));
+
+// 58.Funskiyaga so’z kiritilsa funksiya ushbu so’zni birinchi harfisiz qaytarib bersin.
+// function soz(word) {
+//   return word.slice(1);
+// }
+// console.log(soz("hello"));
+
+// 59.Boolen qiymatini teskarisini qaytarib beradigan funksiya yasang.
+// function teskariBoolean(bool){
+//   if(bool == true){
+//     return false;
+//   } else{
+//     return true;
+//   }
+// }
+// console.log(teskariBoolean(false))
+
+// 60.Funskiya son qabul qiladi, agar son juft bo’lsa funskiya “juft” qaytaradi, agar toq bo’lsa “toq” qaytarsin.
+// function compare(son) {
+//   if (son % 2 == 0) {
+//     return "juft";
+//   } else {
+//     return "to'q";
+//   }
+// }
+// console.log(compare(3));
 
 // let hex = ["a", "b", "c", "d", "e", "f", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
