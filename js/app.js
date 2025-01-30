@@ -166,20 +166,4 @@
 // }
 // console.log(compare(3));
 
-// let hex = ["a", "b", "c", "d", "e", "f", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// function makingColor() {
-//   let stringColor = "#";
-//   for (let i = 0; i < 6; i++) {
-//     stringColor += hex[Math.floor(Math.random() * hex.length)];
-//   }
-//   return stringColor;
-// }
-
-// let bgColor = `linear-gradient(${makingColor()}, ${makingColor()})`;
-// document.body.style = `
-// background:${bgColor};
-// background-repeat:no-repeat;
-// background-size:cover;
-// height:100vh;
-// `;
