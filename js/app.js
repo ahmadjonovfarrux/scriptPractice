@@ -41,5 +41,19 @@
 // console.log(result.join(" "));
 
 // Array4. N ta elementdan tashkil topgan arr nomli massiv va K, L butun sonlari berilgan. (0 <= K <= L < N). Massivning K va L indekslari orasidagi elementlari yig'indisini chiqaruvchi rangeSum(arr, K, L) programma tuzilsin.
-const arr = [1, 6, 9, 5, 8, 10, 15];
+// const arr = [1, 6, 9, 5, 8, 10, 15];
+// function rangeSum(arr, K, L) {
+//   let sum = 0;
+//   for (let i = K; i <= L; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+// const result = rangeSum(arr, 2, 5);
+// console.log(result);
 
+// Array5. n ta elementdan tashkil topgan massiv berilgan. Massivda qatnashgan sonlardan faqat bittadan chiqaruvchi getSingleArr(arr) tuzilsin.
+const arr = [7, 4, 2, 3, 1, 4, 5, 2, 4, 5, 7];
+function duplicateNumbers(arr){
+    
+}
