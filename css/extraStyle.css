@@ -1,0 +1,122 @@
+/* Font styles */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v18-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v18-latin-700.woff2") format("woff2");
+}
+
+/*Document Style  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.newCard {
+  max-width: 384px;
+  width: 100%;
+  height: 611px;
+  background-color: #1f1f1f;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 100px;
+}
+
+.newCard__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.newCard__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.newCard__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #c4f82a;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.newCard__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.newCard__item {
+  padding: 12px 127px;
+  background-color: #333333;
+  border-radius: 8px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newCard__item:nth-child(2) {
+  padding: 12px 93px;
+}
+
+.newCard__item:hover {
+  background-color: #c4f82a;
+}
+
+.newCard__link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+
+.newCard__item:hover .newCard__link {
+  color: #333333;
+}
